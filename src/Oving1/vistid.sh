@@ -14,12 +14,11 @@ if [ ! -e "$1" ] ; then
 fi
 
 #User input
-read -p "Hva er hendelsen?" hendelse
+read -p "Hva er hendelsen?     > " hendelse
 
 #Grep, then cut, then sum
-sum=0
 for line in $(grep "$hendelse" "$1" | cut -f 2) ; do
-        sum=$(($sum + $line))
+   sum=$(($sum + $line))
 done
 
 echo "$sum"

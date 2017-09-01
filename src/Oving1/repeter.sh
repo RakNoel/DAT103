@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-for i in $(seq 1 "$1")
-do
+for (( i=1; i<=$1; i++ )) do
     echo $2
 done
