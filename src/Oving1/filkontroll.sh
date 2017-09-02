@@ -3,12 +3,12 @@
 #filname  = $2
 
 if [ ! -e "$2" ] ; then
-    touch "$2"
-    echo "Filen $2 ble opprettet"
-    exit
+
+    
+else
+    forrigeEdit=$(stat --format "%y" "$2")
 fi
 
-forrigeEdit=$(stat --format "%y" "$2")
 while true; do
     sleep "$1"
     if [ ! -e "$2" ] ; then

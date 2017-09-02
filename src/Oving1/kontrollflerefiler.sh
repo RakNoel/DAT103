@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
 for i in "$@" ; do
-    ( ./filkontroll.sh "2" "$i" & )
+    ( filkontroll.sh "1" "$i" & )
 done
-wait
