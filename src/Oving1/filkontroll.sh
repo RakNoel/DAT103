@@ -1,17 +1,6 @@
 #!/usr/bin/env bash
-#filname  = $2
 #interval = $1
-
-#Validate parameters
-if [ -z $2 ] ; then
-    echo "Filename is un-set"
-    exit
-elif [ -z $1 ] ; then
-    echo "Interval is un-set" ;
-    exit
-fi
-
-###################################
+#filname  = $2
 
 if [ ! -e "$2" ] ; then
     touch "$2"
@@ -20,7 +9,6 @@ if [ ! -e "$2" ] ; then
 fi
 
 forrigeEdit=$(stat --format "%y" "$2")
-
 while true; do
     sleep "$1"
     if [ ! -e "$2" ] ; then
