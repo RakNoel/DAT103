@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 for i in "$@" ; do
-    ( filkontroll.sh "1" "$i" & )
+    ( ./filkontroll.sh "1" "$i" & )
 done
