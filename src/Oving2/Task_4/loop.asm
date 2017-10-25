@@ -1,8 +1,6 @@
-; Inndata Programmet leser inn to sifre skilt med ett eller flere mellomrom
-; Utdata Programmet skriver ut summen av de to sifrene,
-; forutsatt at summen er mindre enn 10.
-; Konstanter
+;Programmet utfører noe mystisk...
 
+; Konstanter
 cr equ 13 ; Vognretur
 lf equ 10 ; Linjeskift
 SYS_EXIT equ 1
