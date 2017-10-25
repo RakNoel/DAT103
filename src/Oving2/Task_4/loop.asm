@@ -27,13 +27,13 @@ _start:
 
   mov ecx, 20
   start_loop:
-    cmp ecx,10
-    jg upp
-    add eax,1
-    jmp end
+    cmp ecx,10 ; test ecx, 10 >> LT, GT, EQ
+    jg upp ; If GT then jump to upp
+    add eax,1 ; eax ++
+    jmp end ;Jump to end
 
     upp:
-    sub eax,1
+    sub eax,1 ; eax --
     end:
   loop start_loop
 

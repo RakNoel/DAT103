@@ -1,0 +1,56 @@
+Script started on Wed 25 Oct 2017 17:48:04 CEST
+]0;raknoel@Poseidon: ~[01;32mraknoel@Poseidon[00m:[01;34m~[00m$ ls
+[0m[01;34mhello[0m  [01;34mloop[0m  [01;34mtotall[0m  typescript
+]0;raknoel@Poseidon: ~[01;32mraknoel@Poseidon[00m:[01;34m~[00m$ cd hello/
+]0;raknoel@Poseidon: ~/hello[01;32mraknoel@Poseidon[00m:[01;34m~/hello[00m$ ls
+[0m[01;32mhello[0m  hello.asm  hello.o  typescript
+]0;raknoel@Poseidon: ~/hello[01;32mraknoel@Poseidon[00m:[01;34m~/hello[00m$ ./hello 
+Hello World!
+]0;raknoel@Poseidon: ~/hello[01;32mraknoel@Poseidon[00m:[01;34m~/hello[00m$ cd ..
+]0;raknoel@Poseidon: ~[01;32mraknoel@Poseidon[00m:[01;34m~[00m$ cd loop/
+]0;raknoel@Poseidon: ~/loop[01;32mraknoel@Poseidon[00m:[01;34m~/loop[00m$ ./loop 
+00
+]0;raknoel@Poseidon: ~/loop[01;32mraknoel@Poseidon[00m:[01;34m~/loop[00m$ cd ..
+]0;raknoel@Poseidon: ~[01;32mraknoel@Poseidon[00m:[01;34m~[00m$ cd totall/
+]0;raknoel@Poseidon: ~/totall[01;32mraknoel@Poseidon[00m:[01;34m~/totall[00m$ ls
+[0m[01;32mtoTall[0m  toTall.asm  toTall.o
+]0;raknoel@Poseidon: ~/totall[01;32mraknoel@Poseidon[00m:[01;34m~/totall[00m$ ./toTall 
+Skriv to ensifrede tall skilt med mellomrom.
+Summen av tallene maa vaere mindre enn 10.
+2 2
+
+04
+]0;raknoel@Poseidon: ~/totall[01;32mraknoel@Poseidon[00m:[01;34m~/totall[00m$ 
+]0;raknoel@Poseidon: ~/totall[01;32mraknoel@Poseidon[00m:[01;34m~/totall[00m$ ./toTall 
+Skriv to ensifrede tall skilt med mellomrom.
+Summen av tallene maa vaere mindre enn 10.
+4 3
+
+07
+]0;raknoel@Poseidon: ~/totall[01;32mraknoel@Poseidon[00m:[01;34m~/totall[00m$ 
+]0;raknoel@Poseidon: ~/totall[01;32mraknoel@Poseidon[00m:[01;34m~/totall[00m$ ./toTall 
+Skriv to ensifrede tall skilt med mellomrom.
+Summen av tallene maa vaere mindre enn 10.
+1 1
+
+02
+]0;raknoel@Poseidon: ~/totall[01;32mraknoel@Poseidon[00m:[01;34m~/totall[00m$ 
+]0;raknoel@Poseidon: ~/totall[01;32mraknoel@Poseidon[00m:[01;34m~/totall[00m$ ./toTall 
+Skriv to ensifrede tall skilt med mellomrom.
+Summen av tallene maa vaere mindre enn 10.
+9   9
+
+18
+]0;raknoel@Poseidon: ~/totall[01;32mraknoel@Poseidon[00m:[01;34m~/totall[00m$ 
+]0;raknoel@Poseidon: ~/totall[01;32mraknoel@Poseidon[00m:[01;34m~/totall[00m$ ./toTall 
+Skriv to ensifrede tall skilt med mellomrom.
+Summen av tallene maa vaere mindre enn 10.
+1 9
+
+10
+]0;raknoel@Poseidon: ~/totall[01;32mraknoel@Poseidon[00m:[01;34m~/totall[00m$ 
+]0;raknoel@Poseidon: ~/totall[01;32mraknoel@Poseidon[00m:[01;34m~/totall[00m$ 
+]0;raknoel@Poseidon: ~/totall[01;32mraknoel@Poseidon[00m:[01;34m~/totall[00m$ exit
+exit
+
+Script done on Wed 25 Oct 2017 17:49:00 CEST
