@@ -3,8 +3,8 @@ package readerWriter;
 import java.util.concurrent.Semaphore;
 
 /**
- * a random grid class that handles the
- * readers-writers problem
+ * a random grid class that shows and
+ * handles the readers-writers problem
  *
  * @author RakNoel
  * @version 1.0

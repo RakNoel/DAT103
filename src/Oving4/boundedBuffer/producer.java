@@ -4,7 +4,9 @@ import java.security.SecureRandom;
 import java.util.Random;
 
 /**
- * TODO: Describe class
+ * Class that will produce random strings
+ * and try to fit them on the queue if
+ * when there is space
  *
  * @author RakNoel
  * @version 1.0

@@ -1,9 +1,11 @@
 package boundedBuffer;
 
-import java.util.PriorityQueue;
-
 /**
- * TODO: Describe class
+ * Simple class that will consume strings from
+ * the queue and then print them to screen.
+ *
+ * This will throw an exception if a consumer tries
+ * grab from empty queue
  *
  * @author RakNoel
  * @version 1.0

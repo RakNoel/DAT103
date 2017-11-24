@@ -9,6 +9,8 @@ import java.util.concurrent.Semaphore;
  * singleton queue that will only
  * let one thread do one thing at a time
  *
+ * Also holds a main method for testing
+ *
  * @author RakNoel
  * @version 1.0
  * @since 24.11.17
@@ -59,5 +61,27 @@ public class myQueue {
             sem.release();
             spaces.release();
         }
+    }
+
+    /**
+     * Main method used for testing!
+     * @param args is unused
+     */
+    public static void main(String[] args) {
+        myQueue mq = myQueue.getInstance();
+
+        Thread p1 = new producer(mq);
+        Thread p2 = new producer(mq);
+
+        Thread c1 = new consumer(mq);
+        Thread c2 = new consumer(mq);
+        Thread c3 = new consumer(mq);
+
+        p1.start();
+        p2.start();
+
+        c1.start();
+        c2.start();
+        c3.start();
     }
 }

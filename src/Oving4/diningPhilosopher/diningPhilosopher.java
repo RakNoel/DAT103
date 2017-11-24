@@ -4,8 +4,8 @@ import java.util.Random;
 import java.util.concurrent.Semaphore;
 
 /**
- * Class to handle the dining-philosophers
- * problem
+ * Class to handle an example of
+ * the dining-philosophers problem
  *
  * @author RakNoel
  * @version 1.0
@@ -33,6 +33,15 @@ public class diningPhilosopher {
     }
 }
 
+
+/**
+ * CLass to represent a philosopher which has two
+ * chopsticks
+ *
+ * if can and will not use a chopstick if it is
+ * alreaddy in use by another process due to
+ * syncronized(){}
+ */
 class philosopher extends Thread {
 
     private final Object leftStick;
